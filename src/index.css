@@ -6,6 +6,7 @@
 /* header */
 h1 {
     border: 3px solid lightblue;
+    color: pink;
 }
 
 /* homepage */
@@ -89,4 +90,3 @@ form button {
 #back-btn:hover {
     color: black;
 }
-

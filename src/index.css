@@ -1,0 +1,92 @@
+/* app */
+#root {
+    border: 3px solid black;
+}
+
+/* header */
+h1 {
+    border: 3px solid lightblue;
+}
+
+/* homepage */
+#root > div {
+    border: 3px solid orange;
+}
+
+/* searchbar */
+input {
+    border: 3px solid green;
+}
+
+/* employee list */
+ul {
+    border: 3px solid purple;
+}
+
+/* employee list item */
+li {
+    border: 3px solid red;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+li > div {
+    margin-left: 20px;
+}
+
+li p {
+    margin: 0;
+}
+
+li p:first-child {
+    font-weight: bolder;
+}
+
+li p:last-child {
+    color: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input { 
+    margin: 10px;
+}
+
+button {
+    margin: 20px;
+}
+
+form button {
+    width: 200px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#back-btn {
+    position: absolute;
+    left: 10px;
+    color: lightblue;
+    cursor: pointer;
+}
+
+#back-btn:hover {
+    color: black;
+}
+
